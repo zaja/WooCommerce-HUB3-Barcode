@@ -161,7 +161,7 @@ Više informacija: [HUB3 specifikacija](https://www.hub.hr/hr/hub3-standard)
 ### Banka ne prepoznaje barkod
 
 1. Provjerite IBAN - mora biti točan i bez razmaka
-2. Provjerite model plaćanja - HR99 je najsigurniji izbor
+2. Provjerite model plaćanja - HR99 ili HR00 je najsigurniji izbor
 3. Provjerite da poziv na broj sadrži samo brojeve i crtice
 
 ## Changelog
