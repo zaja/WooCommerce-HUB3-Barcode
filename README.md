@@ -13,6 +13,8 @@ Plugin automatski generira HUB3 barkod za narudžbe plaćene putem BACS (Izravni
 - **Email kupcu** - u emailovima: On-Hold, Processing, Invoice
 - **Admin panel** - na stranici pojedine narudžbe
 
+<img width="1280" height="896" alt="image" src="https://github.com/user-attachments/assets/209145c1-f2dd-4d07-bb84-3cc77c74ce5b" />
+
 ## Zahtjevi
 
 - WordPress 5.0+
