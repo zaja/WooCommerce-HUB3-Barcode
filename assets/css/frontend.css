@@ -1,0 +1,80 @@
+/**
+ * WooCommerce HUB3 Barcode - Frontend Styles
+ */
+
+.hub3-barcode-wrapper {
+    margin: 30px 0;
+    padding: 25px;
+    background: #f9f9f9;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.hub3-text-above {
+    margin: 0 0 20px 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    line-height: 1.5;
+}
+
+.hub3-barcode {
+    display: inline-block;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.hub3-barcode-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Thank you page specific */
+.woocommerce-order-received .hub3-barcode-wrapper {
+    margin-top: 30px;
+}
+
+/* Order details page */
+.woocommerce-view-order .hub3-barcode-wrapper {
+    margin: 20px 0;
+}
+
+/* Mobile responsive */
+@media screen and (max-width: 768px) {
+    .hub3-barcode-wrapper {
+        padding: 15px;
+        margin: 20px 0;
+    }
+    
+    .hub3-text-above {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    
+    .hub3-barcode {
+        padding: 10px;
+    }
+    
+    .hub3-barcode-image {
+        max-width: 100%;
+    }
+}
+
+/* Print styles */
+@media print {
+    .hub3-barcode-wrapper {
+        background: #fff;
+        border: 2px solid #000;
+        page-break-inside: avoid;
+    }
+    
+    .hub3-barcode {
+        box-shadow: none;
+    }
+}

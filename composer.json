@@ -1,0 +1,8 @@
+{
+    "name": "normalno/woo-hub3-barcode",
+    "description": "WooCommerce HUB3 Barcode Plugin",
+    "type": "wordpress-plugin",
+    "require": {
+        "tecnickcom/tc-lib-barcode": "^2.4"
+    }
+}

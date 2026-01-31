@@ -1,0 +1,114 @@
+/**
+ * WooCommerce HUB3 Barcode - Admin Styles
+ */
+
+.woo-hub3-settings {
+    max-width: 800px;
+}
+
+.woo-hub3-settings h2 {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+}
+
+.woo-hub3-settings h2:first-of-type {
+    margin-top: 20px;
+    padding-top: 0;
+    border-top: none;
+}
+
+.woo-hub3-settings .form-table th {
+    width: 200px;
+    padding: 15px 10px 15px 0;
+}
+
+.woo-hub3-settings .form-table td {
+    padding: 15px 10px;
+}
+
+.woo-hub3-settings .form-table input.regular-text,
+.woo-hub3-settings .form-table input.large-text {
+    width: 100%;
+    max-width: 400px;
+}
+
+.woo-hub3-settings .form-table textarea {
+    width: 100%;
+    max-width: 400px;
+}
+
+.woo-hub3-settings .form-table select {
+    min-width: 250px;
+}
+
+.woo-hub3-settings .description {
+    color: #666;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+#hub3-preview {
+    margin-top: 20px;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
+
+#hub3-preview .hub3-barcode-wrapper {
+    display: inline-block;
+    padding: 20px;
+    background: #f9f9f9;
+    border: 1px dashed #ddd;
+    border-radius: 4px;
+}
+
+#hub3-preview .hub3-text-above {
+    margin-bottom: 15px;
+    font-weight: 500;
+    color: #333;
+}
+
+#hub3-preview .hub3-barcode-image {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Admin order page barcode */
+.hub3-admin-barcode {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.hub3-admin-barcode h3 {
+    margin: 0 0 15px 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+.hub3-admin-barcode .hub3-barcode-wrapper {
+    text-align: center;
+}
+
+.hub3-admin-barcode .hub3-barcode-image {
+    max-width: 350px;
+    height: auto;
+}
+
+/* Notice styles */
+.notice.woo-hub3-notice {
+    border-left-color: #2271b1;
+}
+
+.notice.woo-hub3-notice.notice-warning {
+    border-left-color: #dba617;
+}
+
+.notice.woo-hub3-notice p {
+    margin: 0.5em 0;
+}
